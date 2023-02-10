@@ -9,6 +9,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Ninja List | Home</title>
+        <meta name="keywords" content="ninjas" />
+      </Head>
       {/* <Navbar /> */}
       <br></br>
       <h1 className={styles.title}>Homepage</h1>
